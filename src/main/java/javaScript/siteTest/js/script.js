@@ -1,5 +1,5 @@
 console.log("arr" + "tra"); //строка
-console.log("arr" + 5);  //строка
+console.log("arr" + 5); //строка
 
 // + перед строкой - в число
 
@@ -10,4 +10,5 @@ var decr = 10;
 // decr--;
 
 console.log(++inc);
-console.log(--decr);
+console.log(--decr); 
+checkJSGit
