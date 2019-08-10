@@ -47,3 +47,4 @@ console.log(answ);
 
 //проверка на тип данных
 console.log(typeof(answ));
+//
