@@ -23,7 +23,7 @@ delete optional.fordel;
 //вывод объекта в консоль
 console.log(optional)
 
-//аналог foreach
+//аналог foreach применительно для массивов ключ - значение
 for (let key in optional) {
 console.log('Свойство ' + key + " имеет значение: " + optional[key]);
 }
