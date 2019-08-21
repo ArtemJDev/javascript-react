@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--  CSS -->
+    <link rel="stylesheet" href="menuc.css">
+    <title>TestJS</title>
+  </head>
+  <body>
+    <div id="sweeties" class="menu">
+        <span class="title">Сладости (нажми меня)!</span>
+        <ul>
+          <li>Пирожное</li>
+          <li>Пончик</li>
+          <li>Мёд</li>
+        </ul>
+        <script>
+            let menuElem = document.getElementById('sweeties');
+            let titleElem = menuElem.querySelector(' .menu .title');
+        
+            titleElem.onclick = function() {
+              menuElem.classList.toggle('open');
+            };
+          </script>
+      </div>
+  </body>
