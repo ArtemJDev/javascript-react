@@ -109,7 +109,7 @@ box.addEventListener('touchend', function(e) {
     console.log("Red Box: touchend");
 });
 });
-//TestGitPush FROM Visual Studio
+
   //--------------------  REGEX---------------------------//
 
   //new RegExp('pattern', 'flags');
@@ -142,6 +142,7 @@ box.addEventListener('touchend', function(e) {
 
 let str = 'My name is/ RD2R';
 console.log(str.match(/\w\w\d\w/i)); //поиск по шаблону
-console.log(str.match(/\//i)); //экранирование слэша $ * и тд / / 
+console.log(str.match(/\//i)); //экранирование слэша $ * и тд / /
+//TestGitPush FROM IDEA
 
 
