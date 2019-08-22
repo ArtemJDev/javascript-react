@@ -67,7 +67,8 @@ function modifyText(new_text) {
   el = document.getElementById("outside");
  // el.addEventListener("click", function(){modifyText("четыре")});
 
-  //-----------------------------------------------//
+
+   //-----------------------------------------------//
 //mob listener
 
 //touchstart - касание - аналог клика
@@ -108,7 +109,7 @@ box.addEventListener('touchend', function(e) {
     console.log("Red Box: touchend");
 });
 });
-
+//TestGitPush FROM Visual Studio
   //--------------------  REGEX---------------------------//
 
   //new RegExp('pattern', 'flags');
