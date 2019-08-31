@@ -1,0 +1,9 @@
+input {
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+}
+h1 {
+    display: block;
+    font-size: 30px;
+}
