@@ -28,3 +28,9 @@ menuAdd.appendChild(newLi);
 
 //меняем местами
 let menuIt  = document.getElementsByClassName("menu-item");
+console.log(menuIt);
+let menuIt2  = document.querySelectorAll(".menu-item");
+console.log(menuIt2[0]);
+menuAdd.replaceChild(menuIt2[1],menuIt2[2]);
+
+
