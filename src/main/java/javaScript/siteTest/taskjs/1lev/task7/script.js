@@ -1,3 +1,4 @@
+'use strict'
 //практика получения полей по классу, тэгам, селкторам
 let startBtn = document.getElementById("start"),
 	budgetValue = document.getElementsByClassName('budget-value')[0],
@@ -10,7 +11,7 @@ let startBtn = document.getElementById("start"),
     yearSavingsValue = document.getElementsByClassName('yearsavings-value')[0],
 
 
-	expensesItem = document.getElementsByClassName('expenses-item'),
+	expensesItem = document.getElementsByClassName('expences-item'), //коллекция элементов
 	expensesBtn = document.getElementsByTagName('button')[0],
 	optionalExpensesBtn = document.getElementsByTagName('button')[1],
     countBtn = document.getElementsByTagName('button')[2],
@@ -21,4 +22,6 @@ let startBtn = document.getElementById("start"),
     percentValue = document.querySelector('.choose-percent'),
     yearValue = document.querySelector('.year-value'),
     monthValue = document.querySelector('.month-value'),
-    dayValue = document.querySelector('.day-value');
+	dayValue = document.querySelector('.day-value');
+
+	let money, time;
