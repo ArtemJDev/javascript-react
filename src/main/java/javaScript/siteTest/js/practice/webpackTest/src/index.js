@@ -1,6 +1,6 @@
 let myModul = require('./script');
 
-let module = new myModul();
+let newModule = new myModul();
 
-console.log(module.hello());
-console.log(module.goodbye());
+console.log(newModule.hello());
+console.log(newModule.goodbye());
