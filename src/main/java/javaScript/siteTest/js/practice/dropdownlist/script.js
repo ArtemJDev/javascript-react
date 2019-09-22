@@ -18,7 +18,7 @@ document.onmouseover = function(event) {
 
 function closeMenu() {
     let menu = document.querySelector('.nav');
-    let submenu = document.querySelectorAll('.submenu');
+    let submenu = menu.querySelectorAll('.submenu');
     for(let i = 0; i < submenu.length; i ++) {
         submenu[i].style.display ='none';
     }
