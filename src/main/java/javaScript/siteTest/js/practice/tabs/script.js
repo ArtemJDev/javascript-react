@@ -17,7 +17,7 @@ function hideTabsContent(n) {
 
     }
 }
-
+//показывает все кроме одного
 function showsTabContent(n) {
     console.log(tabContent[n]);
 
@@ -28,7 +28,7 @@ function showsTabContent(n) {
         tabContent[n].classList.add('show');
     }
 }
-
+//событие по клику
 document.getElementById('tabs').onclick = function(e) {
     let target = e.target;
     if(target.className == 'tab') {
