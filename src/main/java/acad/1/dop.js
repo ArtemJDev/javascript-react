@@ -10,3 +10,13 @@ for(let i = 0; i < 5; i ++) {
          i--;
      }
 }
+
+let num = 33721;
+let sum = 1;
+while(num > 0) {
+    sum = sum * num%10;
+    num = Math.floor(33721/10);
+}
+console.log(sum);
+let result = sun**3;
+console.log(result);
