@@ -1,0 +1,30 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.outBox {
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    position: relative;
+}
+.inBox{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-block {
+    background-color: grey;
+}
+
+.btn-block button {
+    margin: 20px;
+    height: 30px;
+    width: 70px;
+    background-color: yellow;
+}

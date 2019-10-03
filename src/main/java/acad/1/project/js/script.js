@@ -21,17 +21,22 @@ let  open = document.getElementById('open-btn'),
     price;
 
 open.addEventListener('click', () => {
-    money  = +prompt("Ваш бюджет", "");
-     while(isNaN(money) || money =='' || money == null) {
-        money  = +prompt("Ваш бюджет", "");
-        mainList.budget = money;
-     }
-     mainList.budget = money;
-     budget_value.textContent = money;
-     shopName = prompt("Название вашего магазина","").toLocaleUpperCase();
-     name_value.textContent = shopName;
-     mainList.shopName = shopName;
+    let timerId = setTimeout(start, 2000);
+    
 });
+
+function start() {
+    money  = +prompt("Ваш бюджет", "");
+    while(isNaN(money) || money =='' || money == null) {
+       money  = +prompt("Ваш бюджет", "");
+       mainList.budget = money;
+    }
+    mainList.budget = money;
+    budget_value.textContent = money;
+    shopName = prompt("Название вашего магазина","").toLocaleUpperCase();
+    name_value.textContent = shopName;
+    mainList.shopName = shopName;
+}
 
 goods_btn.addEventListener('click', () => {
     for(let i = 0; i<goods_item.length; i++) {

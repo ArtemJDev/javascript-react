@@ -8,7 +8,7 @@ function move() {
         } else {
             width++;
             elem.style.width = width +'%';
-            document.querySelector('#label').innerHTML = width*1 + '%';
+            document.querySelector('#label').textContent = width + '%';
         }
 
     }
