@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.raiting {
+    display: flex;
+}
+
+.raiting-item {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.raiting-item.active {
+    background-color: yellow;
+}

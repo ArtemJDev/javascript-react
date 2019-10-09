@@ -25,11 +25,17 @@ class Employer extends Man {
     //                 Create: ${this.create}, Iin: ${this.iin}, Salary: ${this.salary}`;
     //     document.querySelector(x).innerHTML = out;
     // }
+
     get name() {
         return this._name;
     }
+
     set name(name) {
-        this._name = name;
+        if(typeof name === 'string') {
+            this._name = name.trim();
+        } else {
+            console.log("Input correct name");
+        }
     }
 
     render(x) {
@@ -40,9 +46,9 @@ class Employer extends Man {
     
 }
 const employer = new Employer("Ted", 44, "M", "22-12-01", 12, "2500$");
-
 console.log(employer);
 employer.render(".out-2");
 
-employer.name = "Vasiliy";
+//getter and setter
+employer.name = "    Vasiliy";
 console.log(employer.name);
