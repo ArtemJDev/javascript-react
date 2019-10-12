@@ -1,5 +1,5 @@
 let buttons = document.querySelector('.buttons');
-let buttons = document.querySelector('.buttons');
+
 
 buttons.addEventListener('click', function (e) {
     let target = e.target;
