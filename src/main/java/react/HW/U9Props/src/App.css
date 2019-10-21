@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  max-width: 100px;
+}
+
+
+.green {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.error {
+  color:red;
+  font-weight: bold;
+}
