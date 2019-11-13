@@ -3,9 +3,12 @@ import React from "react";
 import "./App.css";
 import "./index.css";
 
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Rate from "./Rate/Rate";
+import About from "./About/About";
 
 class App extends React.Component {
 //   constructor(props) {
@@ -18,8 +21,12 @@ class App extends React.Component {
 
         <div className="container">
           <main>
-            <Rate />
-            
+            <Router>
+            <Switch>
+              <Route exact path="/" component={Rate} />
+              <Route exact path="/about" component={About} />
+            </Switch>
+            </Router>
           </main>
         </div>
 
